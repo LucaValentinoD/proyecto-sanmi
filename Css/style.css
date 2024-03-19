@@ -205,7 +205,8 @@ header div{
     font-size: 100px;
     line-height: 125px;
     left: 500px;
-    top: 50px; 
+    padding: 0px;
+    top: 50px;
 }
 .principal .desarollo1{
     z-index: 1;
