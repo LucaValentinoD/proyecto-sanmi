@@ -7,7 +7,7 @@
 
 
 .Nav{
-    z-index: 2;
+    z-index: 1;
     display: grid;
     width: 100%;
     height: 100vh;
@@ -19,7 +19,7 @@
 }
 
 .navi{
-    z-index: 2;
+    z-index: 1;
     display: flex;
     gap: 250px;
     list-style: none;
@@ -29,7 +29,7 @@
     justify-content:center;
 }
 .navi a{
-    z-index: 2;
+    z-index: 1;
     text-decoration: none;
     color: white;
     font-family: 'Inter', Times, serif;
@@ -194,7 +194,7 @@ header div{
 }
 
 .principal .titulo{
-    z-index: 1;
+    z-index: 0;
     font-weight: bold;
     font-family: 'Inter', Times, serif;
     justify-content: center;
@@ -208,7 +208,7 @@ header div{
     top: 50px; 
 }
 .principal .desarollo1{
-    z-index: 1;
+    z-index: 0;
     display: flex;
     font-weight: bold;
     font-family: 'Inter', Times, serif;
@@ -222,7 +222,7 @@ header div{
     top: 100px;
 }
 .principal .desarollo2{
-    z-index: 1;
+    z-index: 0;
     display: flex;
     font-weight: lighter;
     font-family: 'Inter', Times, serif;
@@ -238,6 +238,7 @@ header div{
 }
 
 .pie{
+    z-index: 1;
     width: 100%;
     height: 50px;
     background-color: #020262;
@@ -755,11 +756,13 @@ article{
     }
 
     .fondo{
+        z-index: 1;
         width: 100vh;
         height: 100vh;
     }
 
     .principal .titulo{
+        z-index: 0;
         left: 270px;
     }
     
@@ -1093,17 +1096,20 @@ article{
         }
     
         .principal .titulo{
+            z-index: 0;
             left: 20px;
             font-size: 39px;
             line-height: 50px ;
         }
     
         .principal .desarollo1{
+            z-index: 0;
             left: 20px;
             bottom: 20px;
         }
     
         .principal .desarollo2{
+            z-index: 0;
             left: 20px;
             font-size: 30px;
 
