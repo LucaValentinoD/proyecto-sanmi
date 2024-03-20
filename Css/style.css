@@ -196,6 +196,10 @@ header div{
     height: 100px;
 }
 
+.fondo{
+    position:sticky;
+}
+
 .principal .titulo{
     z-index: 0;
     font-weight: bold;
