@@ -1054,6 +1054,18 @@ article{
     }
 }
 
+@media (max-width:768px){
+
+    .navi{
+        gap: .625rem;
+    }
+    
+    .navi a{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
     @media (max-width:375px){
         .fondo{
             width: 375px;
