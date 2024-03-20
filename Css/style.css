@@ -32,7 +32,6 @@
 }
 .navi a{
     position: relative;
-    z-index: ;
     text-decoration: none;
     color: white;
     font-family: 'Inter', Times, serif;
@@ -430,7 +429,6 @@ form input::placeholder{
     top: 270px;
     width: 100%;
     font-size: 100px;
-    line-height: ;
 }
 .apple2{
     display: flex ;
