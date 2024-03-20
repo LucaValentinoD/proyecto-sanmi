@@ -1065,7 +1065,46 @@ article{
             left: 30px;
             font-size: 30px;
     }
+}
+
+    @media (max-width:320px){
+
+        .fondo{
+            width: 320px;
+            height: 800px;
+            background-size: cover;
+        }
+        
+
+        .navi{
+            gap: 0px;
+            justify-content: start;
+        }
+    
+        .navi a{
+            font-size: 10px;
+            line-height: 18px;
+            font-weight: 400;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+    
+        .principal .titulo{
+            left: 20px;
+            font-size: 39px;
+            line-height: 50px ;
+        }
+    
+        .principal .desarollo1{
+            left: 20px;
+            bottom: 20px;
+        }
+    
+        .principal .desarollo2{
+            left: 20px;
+            font-size: 30px;
 
 
+    }
 
 }
