@@ -541,9 +541,9 @@ body{
 
 .insano{
     position: relative;
-    left: 1500px;
+    left: 1200px;
     padding: 20px;
-    top:150px ;
+    top: 100px ;
 }
 
 .tx5{
@@ -556,7 +556,7 @@ body{
     position: relative;
     padding: 20px;
     bottom: 680px;
-    right: 400px;
+    right: 500px;
 }
 
 
