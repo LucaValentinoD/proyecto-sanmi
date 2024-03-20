@@ -7,6 +7,7 @@
 
 
 .Nav{
+    position: relative;
     z-index: 1;
     display: grid;
     width: 100%;
@@ -19,6 +20,7 @@
 }
 
 .navi{
+    position: relative;
     z-index: 1;
     display: flex;
     gap: 250px;
@@ -29,6 +31,7 @@
     justify-content:center;
 }
 .navi a{
+    position: relative;
     z-index: 1;
     text-decoration: none;
     color: white;
@@ -850,16 +853,19 @@ article{
     }
 
     .principal .titulo{
+        z-index: 0;
         position: relative;
         left: 100PX;
     }
 
     .principal .desarollo1{
+        z-index: 0;
         position: relative;
         left: 100PX;
     }
 
     .principal .desarollo2{
+        z-index: 0;
         position: relative;
         left: 100PX;
     }
@@ -920,16 +926,19 @@ article{
     }
 
     .principal .titulo{
+        z-index: 0;
         position: relative;
         left: 25px;
     }
 
     .principal .desarollo1{
+        z-index: 0;
         position: relative;
         left: 25px;
     }
 
     .principal .desarollo2{
+        z-index: 0;
         position: relative;
         left: 25px;
     }
@@ -1010,27 +1019,32 @@ article{
     }
 
     .navi{
+        z-index: 2;
         gap: 0px;
         justify-content: start;
     }
 
     .navi a{
+        z-index: 2;
         font-size: 10px;
         line-height: 20px;
         font-weight: 400;
     }
 
     .principal .titulo{
+        z-index: 0;
         left: 30px;
         font-size: 59px;
         line-height: 80px ;
     }
 
     .principal .desarollo1{
+        z-index: 0;
         left: 30px;
     }
 
     .principal .desarollo2{
+        z-index: 0;
         left: 30px;
         font-size: 30px;
     }
@@ -1045,11 +1059,13 @@ article{
         
 
         .navi{
+            z-index: 2;
             gap: -10px;
             justify-content: start;
         }
     
         .navi a{
+            z-index: 2;
             font-size: 10px;
             line-height: 20px;
             font-weight: 400;
@@ -1058,16 +1074,19 @@ article{
         }
     
         .principal .titulo{
+            z-index: 0;
             left: 30px;
             font-size: 59px;
             line-height: 80px ;
         }
     
         .principal .desarollo1{
+            z-index: 0;
             left: 30px;
         }
     
         .principal .desarollo2{
+            z-index: 0;
             left: 30px;
             font-size: 30px;
     }
@@ -1083,11 +1102,13 @@ article{
         
 
         .navi{
+            z-index: 2;
             gap: 0px;
             justify-content: start;
         }
     
         .navi a{
+            z-index: 2;
             font-size: 10px;
             line-height: 18px;
             font-weight: 400;
