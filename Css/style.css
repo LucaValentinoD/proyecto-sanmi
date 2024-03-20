@@ -541,9 +541,9 @@ body{
 
 .insano{
     position: relative;
-    left: 1000px;
+    left: 1500px;
     padding: 20px;
-    top:100px ;
+    top:150px ;
 }
 
 .tx5{
@@ -738,7 +738,32 @@ article{
     margin-top: 1px;
 }
 
+@media (max-width:2560px){
+    .tx5{
+        position: relative;
+        right: 250px;
+    }
+
+    main{
+        width: 100%;
+        height: 1000px;
+    }
+
+    .insano{
+        position: relative;
+        right: 100px;
+    }
+
+}
+
 @media (max-width:1440px){
+
+
+    .Navegador {
+        gap: 150px;
+        justify-content: center;
+    }
+
     .navi{
         z-index: 2;
         display: flex;
@@ -768,6 +793,11 @@ article{
         background-size: cover;
     }
 
+    .insano{
+        width: 450px;
+        top: 150px;
+    }
+
     .principal .titulo{
         z-index: 0;
         left: 270px;
@@ -784,11 +814,36 @@ article{
     .pie{
         width: 1440px;
     }
+
+    .tx5{
+        position: relative;
+        right: 350px;
+        bottom: 550px;
+    }
+
+
+    .insano{
+        position: relative;
+        left: 850px;
+    }
+
+
 }
 
 @media (max-width:1300px){
     .navi{
         gap: 150px;
+    }
+
+    .Navegador {
+        gap: 100px;
+        justify-content: center;
+    }
+
+    .tx5{
+        position: relative;
+        right: 150px;
+        font-size: 80px;
     }
 }
 
@@ -801,7 +856,7 @@ article{
         font-weight: 250;
         background-color: #020262;
         position: fixed;
-        width: 1050px;
+        width: 1024px;
         height: 100px;
         flex-direction: row;
         gap: 100px;
@@ -837,6 +892,20 @@ article{
         padding-top: 25px;
     }
     
+    .tx5{
+        position: relative;
+        font-size: 80px;
+        right: 250px;
+        text-align: center;
+    }
+
+    .insano{
+        position: relative;
+        top: 100px;
+        left: 525px;
+
+}
+
     .Navegador .links{
         position: relative;
         top: 10px;
@@ -902,14 +971,64 @@ article{
 }
 
 
+@media (max-width:948px){
+
+    .Navegador {
+        z-index: 8;
+        display: flex;
+        font-family: 'Inter', Times, serif;
+        font-weight: 250;
+        background-color: #020262;
+        position: fixed;
+        width: 948px;
+        height: 100px;
+        flex-direction: row;
+        gap: 100px;
+        justify-content: center;
+    }
+
+    .insano{
+    position: relative;
+    top: 480px;
+    left: 180px;
+
+}
+
+}
 
 
+@media (max-width:909px){
+    .Navegador {
+        z-index: 8;
+        display: flex;
+        font-family: 'Inter', Times, serif;
+        font-weight: 250;
+        background-color: #020262;
+        position: fixed;
+        width: 909px;
+        height: 100px;
+        flex-direction: row;
+        gap: 59px;
+        justify-content: center;
+    }
+}
 
 
-
-
-
-
+@media (max-width:820px){
+    .Navegador {
+        z-index: 8;
+        display: flex;
+        font-family: 'Inter', Times, serif;
+        font-weight: 250;
+        background-color: #020262;
+        position: fixed;
+        width: 820px;
+        height: 100px;
+        flex-direction: row;
+        gap: 59px;
+        justify-content: center;
+    }
+}
 
 @media (max-width:768px){
     .Navegador {
@@ -919,11 +1038,11 @@ article{
         font-weight: 250;
         background-color: #020262;
         position: fixed;
-        width: 1050px;
+        width: 768px;
         height: 100px;
         flex-direction: row;
-        gap: 40px;
-        justify-content: start;
+        gap: 59px;
+        justify-content: center;
     }
 
     .navi{
@@ -955,6 +1074,16 @@ article{
         left: 25px;
     }
 
+    .tx5{
+        font-size: 50px;
+        right: 200px;
+        bottom: 450px;
+    }
+
+    .insano{
+        left: 350px;
+        top: 100px;
+    }
 
     .navi a{
         z-index: 2;
@@ -1034,6 +1163,53 @@ article{
 }
 
 @media (max-width:425px){
+
+    .Navegador {
+        z-index: 8;
+        display: flex;
+        font-family: 'Inter', Times, serif;
+        font-weight: 250;
+        background-color: #020262;
+        position: fixed;
+        width: 425px;
+        height: 100px;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .Navegador .links{
+        position: relative;
+        top: 10px;
+        font-size: 15.5px;
+        font-weight: 500;
+    }
+    
+    .Navegador .linked{
+        position: relative;
+        top: 15px;
+        font-weight: 500;
+        font-size: 15.5px;
+        line-height: 30px;
+    }
+    
+    
+    .Navegador .link{
+        font-size: 15.5px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+    
+    .Navegador .tres-lineass{
+        white-space: pre-line;
+        text-align: center;
+        position: relative;
+        bottom: 10px;
+        font-size: 15.5px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
     .fondo{
         width: 425px;
         height: 800px;
@@ -1055,6 +1231,18 @@ article{
         margin-left: 10px;
     }
 
+    .tx5{
+        font-size: 30px;
+        bottom: 380px;
+        right: 20px;
+    }
+
+    .insano{
+        width: 350px;
+        left: 40px;
+        top: 250px;
+    }
+
     .principal .titulo{
         z-index: 0;
         left: 30px;
@@ -1072,10 +1260,33 @@ article{
         left: 30px;
         font-size: 30px;
     }
+    
 }
 
 
     @media (max-width:375px){
+        .Navegador {
+            z-index: 8;
+            display: flex;
+            font-family: 'Inter', Times, serif;
+            font-weight: 250;
+            background-color: #020262;
+            position: fixed;
+            width: 375px;
+            height: 100px;
+            flex-direction: row;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .tx5{
+            right: 10px;
+        }
+
+        .insano{
+            left: 10px;
+        }
+
         .fondo{
             width: 375px;
             height: 800px;
@@ -1118,6 +1329,21 @@ article{
 }
 
 @media (max-width:340px){
+
+    .Navegador {
+        z-index: 8;
+        display: flex;
+        font-family: 'Inter', Times, serif;
+        font-weight: 250;
+        background-color: #020262;
+        position: fixed;
+        width: 340px;
+        height: 100px;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+    }
+
     .navi{
         z-index: 2;
         gap: 0px;
@@ -1156,6 +1382,64 @@ article{
 }
 
     @media (max-width:320px){
+
+        .Navegador {
+            z-index: 8;
+            display: flex;
+            font-family: 'Inter', Times, serif;
+            font-weight: 250;
+            background-color: #020262;
+            position: fixed;
+            width: 320px;
+            height: 100px;
+            flex-direction: row;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .Navegador .links{
+            position: relative;
+            top: 10px;
+            font-size: 10.5px;
+            font-weight: 500;
+        }
+        
+        .Navegador .linked{
+            position: relative;
+            top: 30px;
+            font-weight: 500;
+            font-size: 10.5px;
+            line-height: 20px;
+        }
+        
+        
+        .Navegador .link{
+            position: relative;
+            font-size: 10.5px;
+            font-weight: 500;
+            line-height: 20px;
+            top: 15px;
+        }
+
+
+        .tx5{
+            bottom: 300px;
+        }
+
+        .insano{
+            width: 300px;
+            left: 0px;
+        }
+
+        .Navegador .tres-lineass{
+            white-space: pre-line;
+            text-align: center;
+            position: relative;
+            top: 10px;
+            font-size: 10.5px;
+            font-weight: 500;
+            line-height: 20px;
+        }
 
         .fondo{
             width: 320px;
@@ -1199,5 +1483,8 @@ article{
 
 
     }
-
 }
+
+
+
+
