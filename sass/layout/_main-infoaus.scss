@@ -1,0 +1,21 @@
+main{
+    height: 50vh;
+
+    .insano{
+        position: relative;
+        left: 1200px;
+    }
+    .tx5{
+        position: relative;
+        font-size: 30px;
+        bottom: 690px;
+        right: 400px;
+        color: map-get($colores, color3);
+        font-family: 'Inter', Times, serif;
+        white-space: pre-line;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 100px;
+        position: relative;
+    }
+}

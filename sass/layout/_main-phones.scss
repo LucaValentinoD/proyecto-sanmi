@@ -1,0 +1,92 @@
+.main5{
+
+    
+    article{
+        width: 100%;
+        height: 250px;
+        #stock{
+        position: absolute;
+        width: 45%;
+        height: 850px;
+        object-fit: cover;
+    }
+    }
+    .catal{
+        position: relative;
+        bottom: 200px;
+        padding: 20px;
+        width: 100%;
+        height: 250px;
+        color: map-get($colores, color4 );
+        font-weight: 31.25rem;
+        font-family: 'Inter', Times, serif;
+        text-align: center;
+        right: 550px;
+        white-space: pre-line;
+        font-size: 25px;
+    }
+    
+    .logo{
+        position: relative;
+        bottom: 75px;
+        padding: 20px;
+        width: 100%;
+    
+        color: map-get($colores, color4 );
+        font-weight: bolder;
+        font-family: 'Inter', Times, serif;
+        text-align: center;
+        right: 550px;
+        white-space: pre-line;
+        font-size: 25px;
+    }
+    
+    .contacton{
+        position: relative;
+        bottom: 250px;
+        padding: 15px;
+        width: 25%;
+    
+        left: 325px;
+        color: map-get($colores, color3 );
+        font-weight: bolder;
+        font-family: 'Inter', Times, serif;
+        text-decoration: none;
+        background-color: map-get($colores, color4 );
+    
+    }
+    
+    .restock{
+        position: relative;
+        bottom: 950px;
+        left: 1025px;
+        object-fit: cover;
+        width:34%;
+        height: 750px;
+        padding: 5px;
+    }
+    .div-1{
+        position: relative;
+        bottom: 200px;
+        padding: 20px;
+        width: 100%;
+        height: 250px;
+        color: map-get($colores, color4 );
+        font-weight: 31.25rem;
+        font-family: 'Inter', Times, serif;
+        text-align: center;
+        right: 550px;
+        white-space: pre-line;
+        font-size: 25px;
+    }
+    form{
+        position: relative;
+        bottom: 350px;
+        left: 290px;
+        padding: 20px;
+        border: none;
+    }
+    input::placeholder{
+        color: map-get($colores, color3 );    
+    }
+}

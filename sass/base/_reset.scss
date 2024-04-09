@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fondo{
+    width: 100%;
+    height: 100vh;
+    position:sticky;
+    overflow: hidden;
+}
+
+.fondo{
+    background-image: url(../assets/photo-1519326931307-6003daea39f0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondo5 {
+    width: 100%;
+    overflow: hidden;
+    height: 900px; 
+}
+
+.fondo2{
+    width: 100%;
+    height: 75vh;
+}
+.PRINCIPAL5{
+    background-color: map-get($colores, color2 );
+    overflow: hidden;
+}
