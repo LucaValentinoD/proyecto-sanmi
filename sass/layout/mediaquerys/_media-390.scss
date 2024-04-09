@@ -1,0 +1,63 @@
+@media (max-width:375px){
+    .Navegador {
+        z-index: 8;
+        display: flex;
+        font-family: 'Inter', Times, serif;
+        font-weight: 250;
+        background-color: #020262;
+        position: fixed;
+        width: 375px;
+        height: 100px;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .tx5{
+        right: 10px;
+    }
+
+    .insano{
+        left: 10px;
+    }
+
+    .fondo{
+        width: 375px;
+        height: 800px;
+        background-size: cover;
+    }
+    
+
+    .navi{
+        z-index: 2;
+        gap: 0px;
+        justify-content: start;
+    }
+
+    .navi a{
+        z-index: 2;
+        font-size: 10px;
+        line-height: 20px;
+        font-weight: 400;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .principal .titulo{
+        z-index: 0;
+        left: 10px;
+        font-size: 59px;
+        line-height: 80px ;
+    }
+
+    .principal .desarollo1{
+        z-index: 0;
+        left: 10px;
+    }
+
+    .principal .desarollo2{
+        z-index: 0;
+        left: 10px;
+        font-size: 30px;
+}
+}

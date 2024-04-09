@@ -1,0 +1,25 @@
+@media (max-width:390px){
+
+    .Navegador {
+        z-index: 8;
+        display: flex;
+        font-family: 'Inter', Times, serif;
+        font-weight: 250;
+        background-color: #020262;
+        position: fixed;
+        width: 390px;
+        height: 100px;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .tx5{
+        left: 0px;
+    }
+
+    .insano{
+        left:25px;
+    }
+
+}

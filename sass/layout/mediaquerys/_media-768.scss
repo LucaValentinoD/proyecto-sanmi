@@ -1,0 +1,128 @@
+@media (max-width:768px){
+    .Navegador {
+        z-index: 8;
+        display: flex;
+        font-family: 'Inter', Times, serif;
+        font-weight: 250;
+        background-color: #020262;
+        position: fixed;
+        width: 768px;
+        height: 100px;
+        flex-direction: row;
+        gap: 59px;
+        justify-content: center;
+    }
+
+    .navi{
+        z-index: 2;
+        display: flex;
+        gap: 80px;
+        list-style: none;
+        background-color: #020262;
+        white-space: pre-line;
+        text-align: center;
+        justify-content:center;
+    }
+
+    .principal .titulo{
+        z-index: 0;
+        position: relative;
+        left: 25px;
+    }
+
+    .principal .desarollo1{
+        z-index: 0;
+        position: relative;
+        left: 25px;
+    }
+
+    .principal .desarollo2{
+        z-index: 0;
+        position: relative;
+        left: 25px;
+    }
+
+    .tx5{
+        font-size: 50px;
+        right: 200px;
+        bottom: 450px;
+    }
+
+    .insano{
+        left: 350px;
+        top: 100px;
+    }
+
+    .navi a{
+        z-index: 2;
+        display: flex;
+        text-decoration: none;
+        color: white;
+        font-family: 'Inter', Times, serif;
+        font-size: 18px;
+        font-weight: 250;
+        margin: auto;
+        line-height: 30px;
+        gap: 85px;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    .Navegador a{
+        color: #ffffff;
+        padding-top: 25px;
+    }
+
+    .fondo{
+        background-size: auto
+    }
+    
+    .pie{
+        position: fixed;
+    }
+    
+    .Navegador .links{
+        position: relative;
+        top: 10px;
+        font-size: 25.5px
+    }
+    
+    .Navegador .linked{
+        position: relative;
+        top: 15px;
+        font-size: 25.5px
+    }
+    
+    .Navegador .tres-lineas{
+        white-space: pre-line;
+        text-align: center;
+        position: relative;
+        bottom: 20px;
+    }
+    
+    .Navegador .link{
+        font-size: 23.5px
+    }
+    
+    .Navegador .tres-lineass{
+        white-space: pre-line;
+        text-align: center;
+        position: relative;
+        bottom: 10px;
+        font-size: 25.5px
+    }
+
+    .fondo{
+        width: 738px;
+        height: 800px;
+    }
+
+    .navi{
+        gap: 30px;
+    }
+    
+    .navi a{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}

@@ -1,0 +1,107 @@
+@media (max-width:320px){
+
+    .Navegador {
+        z-index: 8;
+        display: flex;
+        font-family: 'Inter', Times, serif;
+        font-weight: 250;
+        background-color: #020262;
+        position: fixed;
+        width: 320px;
+        height: 100px;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .Navegador .links{
+        position: relative;
+        top: 10px;
+        font-size: 10.5px;
+        font-weight: 500;
+    }
+    
+    .Navegador .linked{
+        position: relative;
+        top: 30px;
+        font-weight: 500;
+        font-size: 10.5px;
+        line-height: 20px;
+    }
+    
+    
+    .Navegador .link{
+        position: relative;
+        font-size: 10.5px;
+        font-weight: 500;
+        line-height: 20px;
+        top: 15px;
+    }
+
+
+    .tx5{
+        bottom: 300px;
+    }
+
+    .insano{
+        width: 300px;
+        left: 0px;
+    }
+
+    .Navegador .tres-lineass{
+        white-space: pre-line;
+        text-align: center;
+        position: relative;
+        top: 10px;
+        font-size: 10.5px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    .fondo{
+        width: 320px;
+        height: 800px;
+        background-size: cover;
+    }
+    
+
+    .navi{
+        z-index: 2;
+        gap: 0px;
+        justify-content: start;
+    }
+
+    .navi a{
+        z-index: 2;
+        font-size: 10px;
+        line-height: 18px;
+        font-weight: 400;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .principal .titulo{
+        z-index: 0;
+        left: 20px;
+        font-size: 39px;
+        line-height: 50px ;
+    }
+
+    .principal .desarollo1{
+        z-index: 0;
+        left: 20px;
+        bottom: 20px;
+    }
+
+    .principal .desarollo2{
+        z-index: 0;
+        left: 20px;
+        font-size: 30px;
+
+
+}
+}
+
+
+
+

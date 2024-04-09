@@ -1,0 +1,100 @@
+@media (max-width:425px){
+
+    .Navegador {
+        z-index: 8;
+        display: flex;
+        font-family: 'Inter', Times, serif;
+        font-weight: 250;
+        background-color: #020262;
+        position: fixed;
+        width: 425px;
+        height: 100px;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .Navegador .links{
+        position: relative;
+        top: 10px;
+        font-size: 15.5px;
+        font-weight: 500;
+    }
+    
+    .Navegador .linked{
+        position: relative;
+        top: 15px;
+        font-weight: 500;
+        font-size: 15.5px;
+        line-height: 30px;
+    }
+    
+    
+    .Navegador .link{
+        font-size: 15.5px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+    
+    .Navegador .tres-lineass{
+        white-space: pre-line;
+        text-align: center;
+        position: relative;
+        bottom: 10px;
+        font-size: 15.5px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .fondo{
+        width: 425px;
+        height: 800px;
+        background-size: cover;
+    }
+
+    .navi{
+        gap: 15px;
+        z-index: 2;
+        justify-content: start;
+    }
+
+    .navi a{
+        z-index: 2;
+        font-size: 10px;
+        line-height: 20px;
+        font-weight: 400;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .tx5{
+        font-size: 30px;
+        bottom: 380px;
+        right: 20px;
+    }
+
+    .insano{
+        width: 350px;
+        left: 40px;
+        top: 250px;
+    }
+
+    .principal .titulo{
+        z-index: 0;
+        left: 30px;
+        font-size: 59px;
+        line-height: 80px ;
+    }
+
+    .principal .desarollo1{
+        z-index: 0;
+        left: 30px;
+    }
+
+    .principal .desarollo2{
+        z-index: 0;
+        left: 30px;
+        font-size: 30px;
+    }
+    
+}
