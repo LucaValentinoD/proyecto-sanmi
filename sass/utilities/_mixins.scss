@@ -27,6 +27,14 @@
     "footer"
 }
 
+@mixin grid($cs, $ce, $rs, $re){
+    display: flex;
+    grid-column-start: $cs;
+    grid-column-end: $ce;
+    grid-row-start: $rs;
+    grid-row-end: $re;
+}
+
 @mixin a{
     position: relative;
     text-decoration: none;

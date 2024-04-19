@@ -13,7 +13,7 @@
     }
     .catal{
         @include main(relative, pre-line, center, none);
-        bottom: 200px;
+        bottom: 300px;
         padding: 20px;
         width: 100%;
         height: 250px;
@@ -25,7 +25,7 @@
     
     .logo{
         @include main(relative, pre-line, center, none);
-        bottom: 75px;
+        bottom: 175px;
         padding: 20px;
         width: 100%;
     
@@ -37,11 +37,11 @@
     
     .contacton{
         position: relative;
-        bottom: 250px;
+        bottom: 380px;
         padding: 15px;
         width: 25%;
     
-        left: 325px;
+        left: 329px;
         color: map-get($colores, color3 );
         @include font(bolder);
         text-decoration: none;
@@ -51,16 +51,16 @@
     
     .restock{
         position: relative;
-        bottom: 950px;
-        left: 1025px;
+        bottom: 1000px;
+        left: 1100px;
         object-fit: cover;
-        width:34%;
-        height: 750px;
+        width:30%;
+        height: 700px;
         padding: 5px;
     }
     .div-1{
         @include main(relative, pre-line, center, none);
-        bottom: 200px;
+        bottom: 350px;
         padding: 20px;
         width: 100%;
         height: 250px;
@@ -71,7 +71,7 @@
     }
     form{
         position: relative;
-        bottom: 350px;
+        bottom: 500px;
         left: 290px;
         padding: 20px;
         border: none;

@@ -3,6 +3,7 @@
         height: 100px;
         .section5{
             position: relative;
+            height: 200px;
             .negro4{
                 z-index: 0;
                 display: flex;
@@ -47,7 +48,7 @@
             display: flex;
             position:  relative;
             background-color: map-get($colores, color1 );
-            bottom: 680px;
+            top: 259px;
             height: 25px;
             left: 680px;
             }
@@ -61,15 +62,15 @@
             background-color: map-get($colores, color3 );
             width: 33.5%;
             height: 50px;
-            bottom: 700px;
+            top: 250px;
             left: 625px;
             }
         .etiqueta{
             z-index: 4;
             position: relative;
-            bottom: 939.9px;
             left: 635px;
             width: 32%;
             height: 200px;
             }
+            height: 800px;
 }

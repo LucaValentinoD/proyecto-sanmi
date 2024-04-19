@@ -6,12 +6,14 @@
 .fondo {
   width: 100%;
   height: 125vh;
-  position: sticky; }
+  position: sticky;
+  overflow-x: hidden; }
 
 .fondo {
   background-image: url(../assets/photo-1519326931307-6003daea39f0.png);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  overflow-x: hidden; }
 
 .fondo5 {
   width: 100%;
@@ -20,12 +22,12 @@
 
 .fondo2 {
   width: 100%;
-  height: 75vh;
-  overflow: hidden; }
+  height: 100vh;
+  overflow-x: hidden; }
 
 .PRINCIPAL5 {
   background-color: #a5b3ca;
-  overflow: hidden; }
+  overflow-x: hidden; }
 
 .gren {
   z-index: 1;
@@ -118,16 +120,11 @@
   width: 100%;
   height: 150px;
   grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 50%);
   grid-template-areas: "footer";
   position: absolute;
   bottom: 0;
   background-color: #020262; }
-  .pie .perfil {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    position: relative;
-    align-items: center; }
   .pie div {
     position: relative;
     text-decoration: none;
@@ -140,6 +137,80 @@
     text-decoration: none; }
   .pie a {
     text-decoration: none; }
+  .pie .perfil {
+    width: 70%;
+    height: 125px;
+    position: relative;
+    justify-self: center;
+    align-items: center;
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: none;
+    grid-row-end: none; }
+  .pie .fo-tx1 {
+    justify-self: center;
+    align-items: center;
+    font-weight: bolder;
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1; }
+  .pie .mail {
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2; }
+  .pie .fo-tx2 {
+    position: relative;
+    left: 80px;
+    bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2; }
+  .pie .Web {
+    justify-self: center;
+    position: relative;
+    align-self: center;
+    left: 45px;
+    bottom: 10px;
+    display: flex;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2; }
+  .pie .fo-tx3 {
+    position: relative;
+    left: 100px;
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2; }
+  .pie .fo-tx4 {
+    display: grid;
+    position: relative;
+    white-space: nowrap;
+    display: flex;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 2; }
+  .pie .UBI {
+    height: 50px;
+    display: grid;
+    position: relative;
+    display: flex;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2; }
 
 section .titulo3 {
   display: flex;
@@ -277,7 +348,7 @@ main {
   white-space: pre-line;
   text-align: center;
   justify-content: none;
-  bottom: 200px;
+  bottom: 300px;
   padding: 20px;
   width: 100%;
   height: 250px;
@@ -292,7 +363,7 @@ main {
   white-space: pre-line;
   text-align: center;
   justify-content: none;
-  bottom: 75px;
+  bottom: 175px;
   padding: 20px;
   width: 100%;
   color: #ffffff;
@@ -303,10 +374,10 @@ main {
 
 .main5 .contacton {
   position: relative;
-  bottom: 250px;
+  bottom: 380px;
   padding: 15px;
   width: 25%;
-  left: 325px;
+  left: 329px;
   color: #000000;
   font-weight: bolder;
   font-family: 'Inter', Times, serif;
@@ -315,11 +386,11 @@ main {
 
 .main5 .restock {
   position: relative;
-  bottom: 950px;
-  left: 1025px;
+  bottom: 1000px;
+  left: 1100px;
   object-fit: cover;
-  width: 34%;
-  height: 750px;
+  width: 30%;
+  height: 700px;
   padding: 5px; }
 
 .main5 .div-1 {
@@ -327,7 +398,7 @@ main {
   white-space: pre-line;
   text-align: center;
   justify-content: none;
-  bottom: 200px;
+  bottom: 350px;
   padding: 20px;
   width: 100%;
   height: 250px;
@@ -339,22 +410,13 @@ main {
 
 .main5 form {
   position: relative;
-  bottom: 350px;
+  bottom: 500px;
   left: 290px;
   padding: 20px;
   border: none; }
 
 .main5 input::placeholder {
   color: #000000; }
-
-.pie2 {
-  z-index: 4;
-  width: 100%;
-  height: 25px;
-  background-color: #020262;
-  position: absolute;
-  bottom: 0;
-  position: fixed; }
 
 .principal2 {
   padding-top: 100px;
@@ -376,6 +438,8 @@ main {
     padding-left: 50px;
     bottom: 55px;
     overflow: hidden; }
+  .principal2 .section {
+    height: 950px; }
   .principal2 .section2 #tec {
     display: flex;
     position: relative;
@@ -462,28 +526,111 @@ main {
     position: relative; }
 
 .pie2 {
-  z-index: 4;
+  position: relative;
+  z-index: 1;
+  display: grid;
   width: 100%;
-  height: 50px;
-  background-color: #020262;
+  height: 150px;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(2, 50%);
+  grid-template-areas: "footer";
   position: absolute;
-  bottom: 0;
-  position: fixed; }
-  .pie2 .contactanos {
-    z-index: 1;
+  bottom: 1;
+  background-color: #020262; }
+  .pie2 div {
     position: relative;
-    padding-top: 8px;
-    padding-bottom: 80px;
-    font-weight: bold;
+    text-decoration: none;
+    color: white;
     font-family: 'Inter', Times, serif;
-    background-color: #000000;
-    bottom: 70px; }
+    font-size: 25px;
+    font-weight: 250;
+    margin: auto;
+    line-height: 35px;
+    text-decoration: none; }
+  .pie2 a {
+    text-decoration: none; }
+  .pie2 .perfil {
+    width: 70%;
+    height: 125px;
+    position: relative;
+    justify-self: center;
+    align-items: center;
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: none;
+    grid-row-end: none; }
+  .pie2 .fo-tx1 {
+    justify-self: center;
+    align-items: center;
+    font-weight: bolder;
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1; }
+  .pie2 .mail {
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2; }
+  .pie2 .fo-tx2 {
+    position: relative;
+    left: 80px;
+    bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2; }
+  .pie2 .Web {
+    justify-self: center;
+    position: relative;
+    align-self: center;
+    left: 45px;
+    bottom: 10px;
+    display: flex;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2; }
+  .pie2 .fo-tx3 {
+    position: relative;
+    left: 100px;
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2; }
+  .pie2 .fo-tx4 {
+    display: grid;
+    position: relative;
+    white-space: nowrap;
+    display: flex;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 2; }
+  .pie2 .UBI {
+    height: 50px;
+    display: grid;
+    position: relative;
+    display: flex;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2; }
 
 .main {
   width: 100%;
-  height: 100px; }
+  height: 100px;
+  height: 800px; }
   .main .section5 {
-    position: relative; }
+    position: relative;
+    height: 200px; }
     .main .section5 .negro4 {
       z-index: 0;
       display: flex;
@@ -529,7 +676,7 @@ main {
     display: flex;
     position: relative;
     background-color: #020262;
-    bottom: 680px;
+    top: 259px;
     height: 25px;
     left: 680px; }
   .main .bloque {
@@ -541,15 +688,113 @@ main {
     background-color: #000000;
     width: 33.5%;
     height: 50px;
-    bottom: 700px;
+    top: 250px;
     left: 625px; }
   .main .etiqueta {
     z-index: 4;
     position: relative;
-    bottom: 939.9px;
     left: 635px;
     width: 32%;
     height: 200px; }
+
+.pie3 {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  width: 100%;
+  height: 150px;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(2, 50%);
+  grid-template-areas: "footer";
+  position: absolute;
+  bottom: 1;
+  background-color: #020262; }
+  .pie3 div {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', Times, serif;
+    font-size: 25px;
+    font-weight: 250;
+    margin: auto;
+    line-height: 35px;
+    text-decoration: none; }
+  .pie3 a {
+    text-decoration: none; }
+  .pie3 .perfil {
+    width: 70%;
+    height: 125px;
+    position: relative;
+    justify-self: center;
+    align-items: center;
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: none;
+    grid-row-end: none; }
+  .pie3 .fo-tx1 {
+    justify-self: center;
+    align-items: center;
+    font-weight: bolder;
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1; }
+  .pie3 .mail {
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2; }
+  .pie3 .fo-tx2 {
+    position: relative;
+    left: 80px;
+    bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2; }
+  .pie3 .Web {
+    justify-self: center;
+    position: relative;
+    align-self: center;
+    left: 45px;
+    bottom: 10px;
+    display: flex;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2; }
+  .pie3 .fo-tx3 {
+    position: relative;
+    left: 100px;
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2; }
+  .pie3 .fo-tx4 {
+    display: grid;
+    position: relative;
+    white-space: nowrap;
+    display: flex;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 2; }
+  .pie3 .UBI {
+    height: 50px;
+    display: grid;
+    position: relative;
+    display: flex;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2; }
 
 @media (max-width: 2560px) {
   .tx5 {
@@ -560,7 +805,9 @@ main {
     height: 1000px; }
   .insano {
     position: relative;
-    right: 100px; } }
+    right: 100px; }
+  .fondo {
+    overflow-x: hidden; } }
 
 @media (max-width: 1440px) {
   .Navegador {
