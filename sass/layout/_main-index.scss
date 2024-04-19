@@ -1,18 +1,12 @@
 .principal{
-    padding-top: 20px;
-    padding-right: 50px;
     width: 100%;
     height: 100px;
     
     .titulo{
         z-index: 0;
-        font-weight: bold;
-        font-family: 'Inter', Times, serif;
-        justify-content: center;
+        @include font(bold);
         color: map-get($colores, color4 );
-        position: relative;
-        white-space: pre-line;
-        text-align: center;
+        @include main(relative, pre-line, center, center);
         font-size: 100px;
         line-height: 125px;
     }
@@ -20,27 +14,16 @@
     .desarollo1{
         z-index: 0;
         display: flex;
-        font-weight: bold;
-        font-family: 'Inter', Times, serif;
+        @include font(bold);
         color: map-get($colores, color4 );
-        justify-content: center;
-        position: relative;
-        white-space: pre-line;
-        text-align: center;
+        @include main(relative, pre-line, center, center);
         font-size: 15px;
         top: 50px;
     }
 
     .desarollo2{
-        z-index: 0;
-        display: flex;
-        font-weight: lighter;
-        font-family: 'Inter', Times, serif;
-        justify-content: center;
-        color: map-get($colores, color4 );
-        position: relative;
-        white-space: pre-line;
-        text-align: center;
+        @extend .desarollo1;
+        @include font(lighter);
         font-size: 35px;
         line-height: 45px;
         top: 50px;

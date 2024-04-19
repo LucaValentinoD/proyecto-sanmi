@@ -2,16 +2,12 @@ section{
     .titulo3{
         display: flex;
         z-index: 1;
-        font-weight: bold;
-        font-family: 'Inter', Times, serif;
+        @include font(bold);
         color: map-get($colores, color4 );
-        position: relative;
-        white-space: pre-line;
-        text-align: center;
+        @include main(relative, pre-line, center, none);
         font-size: 100px;
-        position: relative;
         left: 1050px;
-        top: 200px;
+        top: 250px;
         width: 100%;
         font-size: 100px;
     }
@@ -19,7 +15,7 @@ section{
         display: flex ;
         position: relative;
         left: 1250px;
-        bottom: 250px;
+        bottom: 200px;
         
     }
     .TK{
@@ -46,10 +42,9 @@ section{
         color: map-get($colores, color4 );
         width: 20%;
         position: relative;
-        font-weight: bold;
+        @include font(bold);
         font-size: 30px;
         padding: 5px;
-        font-family: 'Inter', Times, serif;
         bottom: 390px;
         left: 250px;
     }
@@ -59,10 +54,9 @@ section{
         width: 50%;
         height: 80px;
         position: relative;
-        font-weight: bold;
+        @include font(bold);
         font-size: 30px;
         padding: 20px;
-        font-family: 'Inter', Times, serif;
         bottom: 380px;
         left: 350px;
     }
@@ -72,12 +66,10 @@ section{
         width: 50%;
         height: 100px;
         gap: 20px;
-        flex-direction: column;
-        position: relative;
-        font-weight: bold;
+        @include column-position;
         font-size: 30px;
         padding: 20px;
-        font-family: 'Inter', Times, serif;
+        @include font(bold);
         bottom: 380px;
         left: 350px;
     }
@@ -87,12 +79,10 @@ section{
         width: 50%;
         height: 100px;
         gap: 20px;
-        flex-direction: column;
-        position: relative;
-        font-weight: bold;
+        @include column-position;
+        @include font(bold);
         font-size: 30px;
         padding: 20px;
-        font-family: 'Inter', Times, serif;
         bottom: 340px;
         left: 360px;
     }
@@ -102,12 +92,10 @@ section{
         width: 20%;
         height: 100px;
         gap: 20px;
-        flex-direction: column;
-        position: relative;
-        font-weight: bold;
+        @include column-position;
+        @include font(bold);
         font-size: 30px;
         padding: 20px;
-        font-family: 'Inter', Times, serif;
         bottom: 315px;
         left: 350px;
         padding-bottom: 100px;

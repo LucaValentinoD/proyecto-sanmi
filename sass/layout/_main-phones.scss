@@ -7,37 +7,31 @@
         #stock{
         position: absolute;
         width: 45%;
-        height: 850px;
+        height: 920px;
         object-fit: cover;
     }
     }
     .catal{
-        position: relative;
+        @include main(relative, pre-line, center, none);
         bottom: 200px;
         padding: 20px;
         width: 100%;
         height: 250px;
         color: map-get($colores, color4 );
-        font-weight: 31.25rem;
-        font-family: 'Inter', Times, serif;
-        text-align: center;
+        @include font(31.25rem);
         right: 550px;
-        white-space: pre-line;
         font-size: 25px;
     }
     
     .logo{
-        position: relative;
+        @include main(relative, pre-line, center, none);
         bottom: 75px;
         padding: 20px;
         width: 100%;
     
         color: map-get($colores, color4 );
-        font-weight: bolder;
-        font-family: 'Inter', Times, serif;
-        text-align: center;
+        @include font(bolder);
         right: 550px;
-        white-space: pre-line;
         font-size: 25px;
     }
     
@@ -49,8 +43,7 @@
     
         left: 325px;
         color: map-get($colores, color3 );
-        font-weight: bolder;
-        font-family: 'Inter', Times, serif;
+        @include font(bolder);
         text-decoration: none;
         background-color: map-get($colores, color4 );
     
@@ -66,17 +59,14 @@
         padding: 5px;
     }
     .div-1{
-        position: relative;
+        @include main(relative, pre-line, center, none);
         bottom: 200px;
         padding: 20px;
         width: 100%;
         height: 250px;
         color: map-get($colores, color4 );
-        font-weight: 31.25rem;
-        font-family: 'Inter', Times, serif;
-        text-align: center;
+        @include font(31.25rem);
         right: 550px;
-        white-space: pre-line;
         font-size: 25px;
     }
     form{

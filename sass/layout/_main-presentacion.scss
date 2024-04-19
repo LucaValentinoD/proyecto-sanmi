@@ -18,23 +18,21 @@
             .tete{
                 z-index: 5;
                 color: map-get($colores, color2 );
-                position: relative;
+                @include main(relative, none, center, none);
                 top: 70px;
                 left: 520px;
                 padding-right: 0px;
                 font-size: 48px;
-                font-family: 'Inter', Times, serif;
+                @include font(bolder);
                 text-align: center;
-                font-weight: bolder;
                 display: flex;
                 width: 50%;
             }
             .fondito5{
                 z-index: 4;
                 width: 45%;
-                justify-content: center;
+                @include main(relative, none, none, center);
                 display: flex;
-                position: relative;
                 bottom: 420px;
                 left: 507px;
             }
