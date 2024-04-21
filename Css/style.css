@@ -2526,13 +2526,14 @@ main {
       grid-column-end: 2;
       grid-row-start: 1;
       grid-row-end: 2; }
+  .fondo {
+    width: 235px; }
   .pie {
     position: absolute;
     bottom: 0;
     width: 425px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 50%);
-    position: sticky; }
+    grid-template-rows: repeat(2, 50%); }
     .pie .perfil {
       width: 100px;
       height: 200PX;
@@ -2723,14 +2724,14 @@ main {
     height: 88vh; }
     main .insano {
       position: relative;
-      left: 10px;
-      top: 100px;
+      left: 25px;
+      top: 40px;
       object-fit: contain;
       height: 450px; }
     main .tx5 {
       position: relative;
       font-size: 30px;
-      bottom: 480px;
+      bottom: 450px;
       right: 10px;
       color: #000000;
       font-weight: bold;
@@ -2739,7 +2740,8 @@ main {
       white-space: pre-line;
       text-align: center;
       justify-content: none;
-      font-size: 25px; } }
+      font-size: 25px;
+      white-space: nowrap; } }
 
 @media (max-width: 375px) {
   .Navegador {
@@ -3169,6 +3171,8 @@ main {
       .Nav .navi .nav--a {
         position: relative;
         top: 10px; }
+  .fondo {
+    width: 300PX; }
   .pie {
     position: sticky; }
   .principal .titulo {

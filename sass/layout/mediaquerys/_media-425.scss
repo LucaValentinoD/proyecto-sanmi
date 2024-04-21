@@ -244,6 +244,9 @@
             top: 110px;
             @include grid(1,2,1,2)}
     }
+    .fondo{
+        width: 235px;
+    }
     .pie{
         
         position: absolute;
@@ -251,7 +254,6 @@
         width: 425px;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(2,50%) ;
-        position: sticky;
         .perfil{
             width: 100px;
             height: 200PX;
@@ -427,20 +429,21 @@ main{
 
     .insano{
         position: relative;
-        left: 10px;
-        top: 100px;
+        left: 25px;
+        top: 40px;
         object-fit: contain;
         height: 450px;
     }
     .tx5{
         position: relative;
         font-size: 30px;
-        bottom: 480px;
+        bottom: 450px;
         right: 10px;
         color: map-get($colores, color3);
         @include font(bold);
         @include main(relative, pre-line, center, none);
         font-size: 25px;
+        white-space: nowrap;
     }
 }
 }
