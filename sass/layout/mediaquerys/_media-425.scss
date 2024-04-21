@@ -245,11 +245,13 @@
             @include grid(1,2,1,2)}
     }
     .pie{
+        
         position: absolute;
         bottom: 0;
         width: 425px;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(2,50%) ;
+        position: sticky;
         .perfil{
             width: 100px;
             height: 200PX;

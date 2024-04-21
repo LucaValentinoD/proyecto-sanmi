@@ -2531,7 +2531,8 @@ main {
     bottom: 0;
     width: 425px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 50%); }
+    grid-template-rows: repeat(2, 50%);
+    position: sticky; }
     .pie .perfil {
       width: 100px;
       height: 200PX;
@@ -3168,6 +3169,8 @@ main {
       .Nav .navi .nav--a {
         position: relative;
         top: 10px; }
+  .pie {
+    position: sticky; }
   .principal .titulo {
     z-index: 0;
     position: relative;
