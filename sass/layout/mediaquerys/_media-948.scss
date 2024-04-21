@@ -20,5 +20,18 @@
     left: 180px;
 
 }
+.pie{
+    .fo-tx4 div{
+    white-space: pre-line;
+    font-size: 15px;
+    bottom: 20px;
+    left: 25px;
+    line-height: 25px;
+    @include grid(5,7,2,2)
 
+}
+}
+div.dropdown{
+    display: none;
+}
 }

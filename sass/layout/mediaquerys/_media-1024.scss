@@ -88,12 +88,16 @@
         z-index: 0;
         position: relative;
         left: 100PX;
+        bottom: 50px;
+        font-size: 80px;
+        line-height: 100px;
     }
 
     .principal .desarollo1{
         z-index: 0;
         position: relative;
         left: 100PX;
+        top: 1px;
     }
 
     .principal .desarollo2{
@@ -119,4 +123,255 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .Nav{
+        position: relative;
+        z-index: 1;
+        display: grid;
+        width: 100%;
+        height: 100px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas: 
+        "header";
+        .navi{
+            height: 110px;
+            width: 1024px;
+            position: relative;
+            z-index: 1;
+            display: flex;
+            gap: 100px;
+            list-style: none;
+            background-color: map-get($colores, color1 );
+            white-space: pre-line;
+            text-align: center;
+            justify-content:center;
+            a{
+                position: relative;
+                text-decoration: none;
+                color: white;
+                font-family: 'Inter', Times, serif;
+                font-size: 20px;
+                font-weight: 250;
+                margin: auto;
+                line-height: 29px;
+                gap: 50px;
+            }
+        }
+
+    }
+
+    .pie5{
+        .perfil{
+            width: 190px;
+            @include grid(1,7,none,none)
+        }
+        .fo-tx1{
+            @include grid(2,7,1,1)
+        }
+        .mail{
+            height: 45px;
+            @include grid(2,3,2,2)
+        }
+    
+        .fo-tx2{
+            left: 59px;
+            font-size: 20px;
+            @include grid(2,3,2,2)
+        }
+    
+        .Web{
+            bottom: 10px;
+            height: 45px;
+            @include grid(3,4,2,2)
+        }
+    
+        .fo-tx3{
+            font-size: 20px;
+            bottom: 10px;
+            left: 85px;
+            @include grid(3,5,2,2)
+        }
+    
+        .fo-tx4 div{
+            white-space: pre-line;
+            font-size: 20px;
+            bottom: 20px;
+            left: 70px;
+            @include grid(5,7,2,2)
+        }
+        .UBI{
+            left: 70px;
+            bottom: 10px;
+            @include grid(5,6,2,2)}
+    }
+    .pie{
+        .perfil{
+            width: 190px;
+            @include grid(1,7,none,none)
+        }
+        .fo-tx1{
+            @include grid(2,7,1,1)
+        }
+        .mail{
+            height: 45px;
+            @include grid(2,3,2,2)
+        }
+    
+        .fo-tx2{
+            left: 59px;
+            font-size: 20px;
+            @include grid(2,3,2,2)
+        }
+    
+        .Web{
+            bottom: 10px;
+            height: 45px;
+            @include grid(3,4,2,2)
+        }
+    
+        .fo-tx3{
+            font-size: 20px;
+            bottom: 10px;
+            left: 85px;
+            @include grid(3,5,2,2)
+        }
+    
+        .fo-tx4 div{
+            white-space: pre-line;
+            font-size: 20px;
+            bottom: 20px;
+            left: 70px;
+            @include grid(5,7,2,2)
+        }
+        .UBI{
+            left: 70px;
+            bottom: 10px;
+            @include grid(5,6,2,2)}
+    }
+    div.dropdown{
+        display: none;
+    }
+    section{
+        .titulo3{
+        display: flex;
+        z-index: 1;
+        @include font(bold);
+        color: map-get($colores, color4 );
+        @include main(relative, pre-line, center, none);
+        font-size: 50px;
+        left: 450px;
+        top: 250px;
+        width: 100%;
+        font-size: 80px;
+    }
+    .apple2{
+        display: flex ;
+        position: relative;
+        left: 585px;
+        bottom: 150px;
+        
+    }
+    .TK{
+        position: relative;
+        left: 50px;
+        bottom: 100px;
+    }    
+    .WH{
+        position: relative;
+        left: -95px;
+        bottom: 270px;
+    }    
+    .IG{
+        position: relative;
+        bottom: 400px;
+        left: -25px;
+    }
+}
+
+.igwh{
+    width: 100%;
+    height: 100px;
+    .tx1{
+        color: map-get($colores, color4 );
+        width: 20%;
+        position: relative;
+        @include font(bold);
+        font-size: 30px;
+        padding: 5px;
+        bottom: 390px;
+        left: 50px;
+    }
+    
+    div{
+        color: map-get($colores, color4 );
+        width: 50%;
+        height: 80px;
+        position: relative;
+        @include font(bold);
+        font-size: 30px;
+        padding: 20px;
+        bottom: 380px;
+        left: 50px;
+    }
+
+    div{
+        color: map-get($colores, color4 );
+        width: 50%;
+        height: 100px;
+        gap: 20px;
+        @include column-position;
+        font-size: 30px;
+        padding: 20px;
+        @include font(bold);
+        bottom: 380px;
+        left: 100px;
+    }
+
+    .t3{
+        color: map-get($colores, color4);
+        width: 50%;
+        height: 100px;
+        gap: 20px;
+        @include column-position;
+        @include font(bold);
+        font-size: 30px;
+        padding: 20px;
+        bottom: 350px;
+        left: 120px;
+    }
+
+    .t4{
+        color: map-get($colores, color4 );
+        width: 20%;
+        height: 100px;
+        gap: 20px;
+        @include column-position;
+        @include font(bold);
+        font-size: 30px;
+        padding: 20px;
+        bottom: 315px;
+        left: 120px;
+        padding-bottom: 100px;
+    }
+}
+main{
+    height: 88vh;
+
+    .insano{
+        position: relative;
+        left: 500px;
+        top: 30px;
+        height: 550px;
+    }
+    .tx5{
+        position: relative;
+        font-size: 30px;
+        bottom: 500px;
+        right: 300px;
+        color: map-get($colores, color3);
+        @include font(bold);
+        @include main(relative, pre-line, center, none);
+        font-size: 50px;
+    }
+}
 }

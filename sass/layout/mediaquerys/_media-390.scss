@@ -60,4 +60,76 @@
         left: 10px;
         font-size: 30px;
 }
+.Nav{
+    position: relative;
+    z-index: 1;
+    display: grid;
+    width: 100%;
+    height: 100px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "header";
+    .navi{
+        height: 85px;
+        width: 390px;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        gap: 10px;
+        list-style: none;
+        background-color: map-get($colores, color1 );
+        white-space: pre-line;
+        text-align: center;
+        justify-content:center;
+
+
+
+        a{
+            position: relative;
+            text-decoration: none;
+            color: white;
+            font-family: 'Inter', Times, serif;
+            font-size: 15px;
+            font-weight: 250;
+            margin: auto;
+            line-height: 25px;
+            gap: 40px;
+            bottom: 10px;
+        }
+        .nav-a{
+            position: relative;
+            bottom: 20px;
+        }
+        .nav--a{
+            position: relative;
+            top: 5px;
+        }
+    }
+
+}
+
+.principal .titulo{
+    z-index: 0;
+    position: relative;
+    left: 5px;
+    bottom: 50px;
+    font-size: 50px;
+    line-height: 75px;
+}
+
+.principal .desarollo1{
+    z-index: 0;
+    position: relative;
+    left: 5px;
+    top: 1px;
+}
+
+.principal .desarollo2{
+    z-index: 0;
+    position: relative;
+    left: 5px;
+    font-size: 20px;
+    line-height: 30px;
+}
 }
