@@ -79,4 +79,11 @@
     input::placeholder{
         color: map-get($colores, color3 );    
     }
+    .carrousel{
+        width: 500px;
+        height: 250px;
+        position: relative;
+        bottom: 900px;
+        left: 1150px;
+    }
 }

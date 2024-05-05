@@ -38,6 +38,9 @@
   grid-template-rows: auto 1fr auto;
   grid-template-areas: "header" "main"; }
 
+header {
+  height: 1000px; }
+
 .Nav {
   position: relative;
   z-index: 1;
@@ -419,6 +422,13 @@ main {
 .main5 input::placeholder {
   color: #000000; }
 
+.main5 .carrousel {
+  width: 500px;
+  height: 250px;
+  position: relative;
+  bottom: 900px;
+  left: 1150px; }
+
 .principal2 {
   padding-top: 100px;
   width: 100%;
@@ -543,7 +553,7 @@ main {
   grid-template-rows: repeat(2, 50%);
   grid-template-areas: "footer";
   position: relative;
-  bottom: -250px;
+  bottom: 220px;
   background-color: #020262; }
   .pie4 .contactanos {
     width: 100%;
@@ -1101,8 +1111,29 @@ main {
     grid-column-end: 6;
     grid-row-start: 2;
     grid-row-end: 2; }
+  .igwh .tx1 {
+    bottom: 480px;
+    left: 80px; }
+  .igwh div {
+    bottom: 480px;
+    left: 150px; }
+  .igwh .t3 {
+    bottom: 440px;
+    left: 160px; }
+  .igwh .t4 {
+    bottom: 390px;
+    left: 150px; }
   div.dropdown {
     display: none; }
+  section .IG {
+    bottom: 500px;
+    left: -25px; }
+  section .WH {
+    bottom: 350px;
+    left: -89px; }
+  section .TK {
+    bottom: 150px;
+    left: 50px; }
   section .titulo3 {
     display: flex;
     z-index: 1;
@@ -1115,14 +1146,14 @@ main {
     justify-content: none;
     font-size: 100px;
     left: 750px;
-    top: 250px;
+    top: 180px;
     width: 100%;
     font-size: 100px; }
   section .apple2 {
     display: flex;
     position: relative;
     left: 950px;
-    bottom: 200px; }
+    bottom: 270px; }
   .pie5 {
     position: absolute; }
   main {
@@ -1332,7 +1363,8 @@ main {
   .fondo {
     background-image: url(../assets/photo-1519326931307-6003daea39f0.png);
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    background-position-x: -225px; }
   .Nav {
     position: relative;
     z-index: 1;
@@ -1502,28 +1534,28 @@ main {
     white-space: pre-line;
     text-align: center;
     justify-content: none;
-    font-size: 50px;
-    left: 450px;
-    top: 250px;
+    font-size: 39px;
+    left: 550px;
+    top: 150px;
     width: 100%;
     font-size: 80px; }
   section .apple2 {
     display: flex;
     position: relative;
-    left: 585px;
-    bottom: 150px; }
+    left: 685px;
+    bottom: 225px; }
   section .TK {
     position: relative;
-    left: 50px;
-    bottom: 100px; }
+    left: 25px;
+    bottom: 150px; }
   section .WH {
     position: relative;
-    left: -95px;
-    bottom: 270px; }
+    left: -115px;
+    bottom: 320px; }
   section .IG {
     position: relative;
-    bottom: 400px;
-    left: -25px; }
+    bottom: 439px;
+    left: -45px; }
   .igwh {
     width: 100%;
     height: 100px; }
@@ -1535,8 +1567,8 @@ main {
       font-family: 'Inter', Times, serif;
       font-size: 30px;
       padding: 5px;
-      bottom: 390px;
-      left: 50px; }
+      bottom: 439px;
+      left: 150px; }
     .igwh div {
       color: #ffffff;
       width: 50%;
@@ -1559,7 +1591,7 @@ main {
       padding: 20px;
       font-weight: bold;
       font-family: 'Inter', Times, serif;
-      bottom: 380px;
+      bottom: 425px;
       left: 100px; }
     .igwh .t3 {
       color: #ffffff;
@@ -1572,7 +1604,7 @@ main {
       font-family: 'Inter', Times, serif;
       font-size: 30px;
       padding: 20px;
-      bottom: 350px;
+      bottom: 400px;
       left: 120px; }
     .igwh .t4 {
       color: #ffffff;
@@ -1585,7 +1617,7 @@ main {
       font-family: 'Inter', Times, serif;
       font-size: 30px;
       padding: 20px;
-      bottom: 315px;
+      bottom: 415px;
       left: 120px;
       padding-bottom: 100px; }
   main {
@@ -1985,6 +2017,11 @@ main {
   .fondo {
     width: 738px;
     height: 800px; }
+  .fondo {
+    background-image: url(../assets/photo-1519326931307-6003daea39f0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -300px; }
   .navi {
     gap: 30px; }
   .navi a {
@@ -2149,7 +2186,7 @@ main {
       grid-row-start: 2;
       grid-row-end: 2; }
     .pie .Web {
-      left: 40px;
+      left: 50px;
       bottom: 10px;
       height: 45px;
       display: flex;
@@ -2528,6 +2565,11 @@ main {
       grid-row-end: 2; }
   .fondo {
     width: 235px; }
+  .fondo {
+    background-image: url(../assets/photo-1519326931307-6003daea39f0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -500px; }
   .pie {
     position: absolute;
     bottom: 0;
@@ -2721,7 +2763,7 @@ main {
       left: 120px;
       padding-bottom: 100px; }
   main {
-    height: 88vh; }
+    height: 80vh; }
     main .insano {
       position: relative;
       left: 25px;
@@ -3088,11 +3130,14 @@ main {
     font-weight: 500;
     line-height: 20px;
     top: 15px; }
-  .tx5 {
-    bottom: 300px; }
-  .insano {
+  main .tx5 {
+    left: -15px;
+    font-size: 15px; }
+  main .insano {
     width: 300px;
     left: 0px; }
+  body {
+    height: 855px; }
   .Navegador .tres-lineass {
     white-space: pre-line;
     text-align: center;
@@ -3174,7 +3219,7 @@ main {
   .fondo {
     width: 300PX; }
   .pie {
-    position: sticky; }
+    position: absolute; }
   .principal .titulo {
     z-index: 0;
     position: relative;

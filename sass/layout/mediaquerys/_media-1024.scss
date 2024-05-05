@@ -122,6 +122,7 @@
         background-image: url(../assets/photo-1519326931307-6003daea39f0.png);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position-x: -225px;
     }
     .Nav{
         position: relative;
@@ -258,33 +259,33 @@
         @include font(bold);
         color: map-get($colores, color4 );
         @include main(relative, pre-line, center, none);
-        font-size: 50px;
-        left: 450px;
-        top: 250px;
+        font-size: 39px;
+        left: 550px;
+        top: 150px;
         width: 100%;
         font-size: 80px;
     }
     .apple2{
         display: flex ;
         position: relative;
-        left: 585px;
-        bottom: 150px;
+        left: 685px;
+        bottom: 225px;
         
     }
     .TK{
         position: relative;
-        left: 50px;
-        bottom: 100px;
+        left: 25px;
+        bottom: 150px;
     }    
     .WH{
         position: relative;
-        left: -95px;
-        bottom: 270px;
+        left: -115px;
+        bottom: 320px;
     }    
     .IG{
         position: relative;
-        bottom: 400px;
-        left: -25px;
+        bottom: 439px;
+        left: -45px;
     }
 }
 
@@ -298,8 +299,8 @@
         @include font(bold);
         font-size: 30px;
         padding: 5px;
-        bottom: 390px;
-        left: 50px;
+        bottom: 439px;
+        left: 150px;
     }
     
     div{
@@ -323,7 +324,7 @@
         font-size: 30px;
         padding: 20px;
         @include font(bold);
-        bottom: 380px;
+        bottom: 425px;
         left: 100px;
     }
 
@@ -336,7 +337,7 @@
         @include font(bold);
         font-size: 30px;
         padding: 20px;
-        bottom: 350px;
+        bottom: 400px;
         left: 120px;
     }
 
@@ -349,7 +350,7 @@
         @include font(bold);
         font-size: 30px;
         padding: 20px;
-        bottom: 315px;
+        bottom: 415px;
         left: 120px;
         padding-bottom: 100px;
     }

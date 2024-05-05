@@ -95,10 +95,42 @@
         }
         .UBI{@include grid(5,6,2,2)}
     }
+
+    .igwh{
+        .tx1{
+            bottom: 480px;
+            left: 80px;
+        }
+        div{
+            bottom: 480px;
+            left: 150px;
+        }
+        .t3{
+            bottom: 440px;
+            left: 160px;
+        }
+        .t4{
+            bottom: 390px;
+            left: 150px;
+        }
+
+    }
     div.dropdown{
         display: none;
     }
     section{
+        .IG{
+            bottom: 500px;
+            left: -25px;
+        }
+        .WH{
+            bottom: 350px;
+            left: -89px;
+        }
+        .TK{
+            bottom: 150px;
+            left: 50px;
+        }
         .titulo3{
         display: flex;
         z-index: 1;
@@ -107,7 +139,7 @@
         @include main(relative, pre-line, center, none);
         font-size: 100px;
         left: 750px;
-        top: 250px;
+        top:180px;
         width: 100%;
         font-size: 100px;
     }
@@ -115,7 +147,7 @@
         display: flex ;
         position: relative;
         left: 950px;
-        bottom: 200px;
+        bottom: 270px;
         
     }} .pie5{position: absolute;}
     main{

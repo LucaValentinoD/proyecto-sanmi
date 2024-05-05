@@ -247,6 +247,12 @@
     .fondo{
         width: 235px;
     }
+    .fondo{
+        background-image: url(../assets/photo-1519326931307-6003daea39f0.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: -500px;
+    }
     .pie{
         
         position: absolute;
@@ -425,7 +431,7 @@
     }
 }
 main{
-    height: 88vh;
+    height: 80vh;
 
     .insano{
         position: relative;

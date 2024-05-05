@@ -116,6 +116,12 @@
         width: 738px;
         height: 800px;
     }
+    .fondo{
+        background-image: url(../assets/photo-1519326931307-6003daea39f0.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: -300px;
+    }
 
     .navi{
         gap: 30px;
@@ -273,7 +279,7 @@
         }
     
         .Web{
-            left: 40px;
+            left: 50px;
             bottom: 10px;
             height: 45px;
             @include grid(3,4,2,2)

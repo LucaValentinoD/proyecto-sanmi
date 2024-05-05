@@ -39,13 +39,19 @@
     }
 
 
-    .tx5{
-        bottom: 300px;
+    main{
+        .tx5{
+        left: -15px;
+        font-size: 15px;
     }
-
     .insano{
         width: 300px;
         left: 0px;
+    }
+    }
+
+    body{
+        height: 855px;
     }
 
     .Navegador .tres-lineass{
@@ -156,7 +162,7 @@
             width: 300PX;
         }
         .pie{
-            position: sticky;
+            position: absolute;
         }
         
         .principal .titulo{
