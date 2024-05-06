@@ -120,5 +120,11 @@
             bottom: 10px;
             @include grid(5,6,2,2)}
     }
+    .fondo5 {
+        width: 100%;
+        overflow: hidden;
+        height: 829px; 
+        overflow-x: hidden;
+    }
 }
 

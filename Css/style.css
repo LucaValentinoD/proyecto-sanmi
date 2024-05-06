@@ -18,7 +18,8 @@
 .fondo5 {
   width: 100%;
   overflow: hidden;
-  height: 829px; }
+  height: 829px;
+  overflow-x: hidden; }
 
 .fondo2 {
   width: 100%;
@@ -1550,7 +1551,12 @@ main {
       position: relative;
       left: 485px;
       width: 32%;
-      height: 200px; } }
+      height: 200px; }
+  .fondo5 {
+    width: 100%;
+    overflow: hidden;
+    height: 829px;
+    overflow-x: hidden; } }
 
 @media (max-width: 1300px) {
   .navi {
@@ -2231,7 +2237,12 @@ main {
       left: 300px;
       width: 38%;
       height: 150px;
-      top: -25PX; } }
+      top: -25PX; }
+  .fondo5 {
+    width: 100%;
+    overflow: hidden;
+    height: 829px;
+    overflow-x: hidden; } }
 
 @media (max-width: 948px) {
   .Navegador {
@@ -2522,7 +2533,12 @@ main {
       grid-column-start: 5;
       grid-column-end: 6;
       grid-row-start: 2;
-      grid-row-end: 2; } }
+      grid-row-end: 2; }
+  .fondo5 {
+    width: 100%;
+    overflow: hidden;
+    height: 829px;
+    overflow-x: hidden; } }
 
 @media (max-width: 768px) {
   .Navegador {
@@ -3221,7 +3237,12 @@ main {
       left: 220px;
       width: 350px;
       height: 200px;
-      top: -125PX; } }
+      top: -125PX; }
+  .fondo5 {
+    width: 100%;
+    overflow: hidden;
+    height: 829px;
+    overflow-x: hidden; } }
 
 @media (max-width: 425px) {
   .Navegador {
@@ -4012,7 +4033,12 @@ main {
       left: 59px;
       width: 299px;
       height: 179px;
-      top: -225PX; } }
+      top: -225PX; }
+  .fondo5 {
+    width: 100%;
+    overflow: hidden;
+    height: 829px;
+    overflow-x: hidden; } }
 
 @media (max-width: 375px) {
   .Navegador {
@@ -4326,7 +4352,12 @@ main {
       left: 39px;
       width: 299px;
       height: 179px;
-      top: -225PX; } }
+      top: -225PX; }
+  .fondo5 {
+    width: 100%;
+    overflow: hidden;
+    height: 829px;
+    overflow-x: hidden; } }
 
 @media (max-width: 390px) {
   .Navegador {
@@ -5125,4 +5156,9 @@ main {
       left: 19px;
       width: 289px;
       height: 125px;
-      top: -200PX; } }
+      top: -200PX; }
+  .fondo5 {
+    width: 100%;
+    overflow: hidden;
+    height: 829px;
+    overflow-x: hidden; } }
